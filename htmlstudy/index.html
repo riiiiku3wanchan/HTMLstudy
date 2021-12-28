@@ -1,0 +1,44 @@
+<!DOCTYPE html><!--正しい "doctype" と認識させるための最も簡潔な記述-->
+<html>
+  <head>
+     <meta charset="utf-8">
+     <title>HTML概論</title>
+  </head>
+  <body>
+     <h1>HTMLの練習</h1>
+     <p>2021/12/28から<strong>ガチ</strong>で勉強してみる</p>
+
+     <h2>最初</h2>
+     <figure>
+     <img src="images/犬顔.jpg" alt="これは私の顔です" width="400" height="400" title="これは私の顔です。"><!--画像サイズを変更するときはCSSを使う-->
+     <figcaption>画像の表示</figcaption>
+     </figure>
+
+
+     <h2>動画、音声の埋め込み</h2>
+     <video controls width="400" height="300" autoplay loop muted poster="images/犬顔.jpg">
+        <source src="videos/近江塩津駅合成.mp4" type="video/mp4">
+        <p>お使いのブラウザはHTML5動画をサポートしていません。その代わりに<a href="videos/近江塩津駅合成.mp4">動画へのリンク</a>があります。</p>
+     </video>
+     <audio controls>
+        <source src="audios/しゅわしゅわハニーレモン350ml.mp3" type="audio/mp3">
+        <p>お使いのブラウザはHTML5音声をサポートしていません。その代わりに<a href="audios/しゅわしゅわハニーレモン350ml.mp3">動画へのリンク</a>があります。</p>
+     </audio>
+
+
+     <h2><a href="https://developer.mozilla.org/ja/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies">その他埋め込み</a></h2>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/eU8icWlj1zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13126238.10950886!2d136.362305!3d36.562599999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1640707934743!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+     <iframe src="https://developer.mozilla.org/en-US/docs/Glossary"
+        width="100%" height="500" frameborder="0"
+        allowfullscreen sandbox>
+       <p><a href="https://developer.mozilla.org/en-US/docs/Glossary">
+    iframe をサポートしていないブラウザーのための代替リンク </a>
+       </p>
+</iframe>
+
+
+     <p><a href="https://developer.mozilla.org/ja/docs/Learn/HTML/Introduction_to_HTML/Getting_started" title="HTML入門" target="_blank">HTML入門</a></p>
+     <p><a href="https://developer.mozilla.org/ja/docs/Learn/HTML/Multimedia_and_embedding" title="マルチメディアとその埋め込み方" target="_blank">マルチメディアとその埋め込み方</a></p>
+  </body>
+</html>
